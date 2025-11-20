@@ -1,0 +1,42 @@
+Tipo Primitivos primordiais
+
+Tidos de dados
+
+3 5 12 99 etc... são 'number' números sem fração. inteiros.
+0.5 -15.9 3.14 8.0 são os fracionados.
+Infinity e NaN = 'Not and Number'. São valores internos muito importantes 
+
+False e True são Boolean
+
+"Google", "javaScript", "Bruno", são 'Strings' são textos
+exite tambem:
+null 
+Undefined 
+
+Object.  Array que é um vetor que o pessoal teme. bora neles.
+
+function tambem é um tipo.
+
+Comando valioso para o JS o typeof, que é o tipo dê.
+
+Exemplos: 
+
+> var n = 200
+undefined
+> n = "Google"
+'Google'
+> typeof " 6.5"
+'string'
+> typeof []
+'object'
+> typeof {}
+'object'
+> typeof function(){}
+'function'
+> typeof undefined
+'undefined'
+> typeof NaN
+'number'
+> typeof null
+'object'
+> 

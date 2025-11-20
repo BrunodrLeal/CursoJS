@@ -1,0 +1,23 @@
+html  e css não são linguagens de programação, sim de estilização.
+
+Modulo B:
+1° vamos aprender agora.
+Armazenamento de Dados, Tratamento de dados, Fazer Operações com eles, as próximas 4 aulas vão abordar isso. 
+                                          =============
+
+Variaveis.
+
+Comentários são importantes. ajuda muito no desenvolvimento e ajuda a outros desenvolvedores a entenderem oque está sendo feito. 
+comentários são feitos com : // ou /* */ prativa foi realizada no index.js entre linhas 22/ 26
+
+obs: um único sinal de = sempre será "recebe". 
+
+Regras:
+podem começar com letra $ ou _ | É possível usar letras e números | Acentos e símbolos.
+Não podemos começar com números| Espaço | palavras reservadas. 
+
+° Maiúsculas e Minúsculas fazem diferença.
+Testar escolher nomes coerentes para as variáveis
+Evitar usar nomes genéricos e sem sentido.
+
+Abrir NodeJs e criar variáveis. // bem simples
