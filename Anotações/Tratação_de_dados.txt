@@ -1,0 +1,99 @@
+Revisão da Aula passada. ok
+
+variaveis | Tipos Primitivos| Function. Bora pra próxima.
+
+OS principais tipos primitivos.
+Number | String | Boolean.
+
+Conteudo adicional.
+Sessão comentários:
+HTML : <!-- comentários -->
+CSS : /* */
+ ========================================================
+
+ Tratamento de dados.
+
+ pelo comnado: window.prompt("Qual o seu nome?")
+ window.alert("è um grange prazer em te conhecer," +nome)
+
+/* Colocando a mensagem em (""), mais para adicionar o nome 
+que foi fornecido pelo usuário é preciso concatenar com o + nome. 
+Aprendi isso no Java.*/
+
+Concatenar significa ligar ou unir elementos em uma sequência contínua, como em uma cadeia.
+
+teste realizado com idade depois do nome e concatenado . realizado com sucesso. 
+
+===============================================================
+Conversão de String para Number
+Caracteristica do comando: window.prompt é sempre retornar uma String.
+por isso não consegue realizar soma.
+window.alert("A soma dos valores é: " +s) nesse caso ele irá concatenar
+
+Para converter a String em Number se usa o 
+Number.parceInt(n) ou o 
+Number.parseFloat(n)
+
+Sintaxe.  
+    var n1 = Number.parseInt(window.prompt("Digite um número: "))
+    var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+    var s = n1 + n2
+    window.alert("A soma dos valores é: " +s) // concatenar
+    ou somente parceInt e o restante
+
+    Hoje tem a nova forma de utilizar pode se usar somente o Number
+============================================================================
+Conversão de Number para String
+
+Usar o String(n)
+ou o
+n.toString()
+=======================================================
+Formatação de Strings.
+${variavel}
+> 'O Aluno ${nome} com ${idade} anos tirou nota ${nota}'
+'O Aluno ${nome} com ${idade} anos tirou nota ${nota}'
+ 
+Exemplo vs code.
+  window.alert(`A soma de ${n1} e ${n2} é ${s} !`) 
+  // tem que usar a Crase para usar essa função
+
+Informações Extras.
+var s = "JavaScript"
+s.length // quantos caracteres a String tem.
+s.toUpperCase() // tudo para "MAIÚSCULAS"
+s.toLowerCase() // Tudo para "minúsculas" 
+Comnado:
+document.write escreve na pagina. os dados.
+==================================================================
+Formatação de Números
+
+Para formatar uma variavel do tipo Float.
+toFixed(2) // deixa com duas casas decimais depois do "."
+tofixed(2).replace('.' , ',')// Essa função troca o "."= ponto pela ","= Virgula.
+ 
+ Exemplo feito no NodeJS
+ > var n1 = 1543.5
+undefined
+> n1
+1543.5
+> n1.toFixed(2)
+'1543.50'
+> toFixed(4).replace("." , ",")
+Uncaught ReferenceError: toFixed is not defined
+> n1.toFixed(4).replace("." , ",")
+'1543,5000'
+
+Conversão de Moeda
+
+ Exemplo feito no NodeJS
+
+> n1.toLocaleString('pt-BR' , {style: 'currency', currency : 'BRL'})
+'R$ 5.323,23'
+> n1.toLocaleString('pt-BR' , {style: 'currency', currency : 'USD'})
+'US$ 5.323,23'
+> n1.toLocaleString('pt-BR' , {style: 'currency', currency : 'EUR'})
+'€ 5.323,23'
+
+Isso é muito importante. 
+

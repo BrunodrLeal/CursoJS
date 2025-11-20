@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: rgba(0, 0, 255, 0.404);
-            color: white;
+            color: white; /* teste comentário */
             font: normal 20pt Arial;
         }
         h1 {
@@ -16,15 +16,12 @@
     </style>
 </head>
 <body>
-   <h1>Olá Mundo!</h1>
-   
+   <h1>Olá Mundo!</h1><!-- teste comentário HTML5-->
    <p>Já me livrei da mandição</p>
     <script>
-       
-        window.alert("Minha Primeira mensagem!") // janela com mensagem
-        window.confirm("está gostando do JavaScript") // janela com botão ok e cancela.
-        window.prompt("Qual o seu nome?") // Janela para adicionar o nome
-
+        var nome = window.prompt("Qual o seu nome?") // Janela para adicionar o nome
+        var idade = window.prompt("qual a sua idade?")// teste para idade.
+        window.alert("É um grande prazer em te conhecer, " + nome + " ! " + idade + " .")
     </script>
 </body>
 </html>
