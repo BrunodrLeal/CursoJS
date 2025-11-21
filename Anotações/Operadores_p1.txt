@@ -1,0 +1,124 @@
+Operadores
+
+Aritiméticos. 
+Atribuição.
+Relacionais.
+Lógicos.
+ternários.
+======================================================
+Aritiméticos
+
+Aqui estão os operadores com os operandos. 
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10 
+5 / 2 = 2.5 // divisão real
+5 % 2 = 1 // resta 1
+5 ** 2 = 25 // Potência seria 5 vezes 5.
+
+Aviso: Cuidado com utilização dos operadores 
+por que segue a Ordem de precedência.
+() 1° 
+** 2°
+* / % 3°
+Obs: caso tenha todos ou 2 desses operadores, a sequência é da esquerda para a direita
++ - 4°
+Obs: caso tenha todos ou 2 desses operadores, a sequência é da esquerda para a direita
+======================================================================================
+
+Atribuição simples
+
+var a = 5 + 3 resultado 8
+var b = a % 5 resultado 3
+var c = 5 * b ** 2 resultado 45
+var d = 10 - a / 2 resultado 6
+var e = 6 * 2 / 4 resultado 2
+var f = b % e + 4 / e resultado 3
+
+Teste realizado no NodeJs. 
+> a
+8
+> b
+3
+> c
+45
+> d
+6
+> e
+2
+> f
+3
+Nota: anteriormente na espressão "d" tinha errado o operador que era 10 - a /2,
+eu coloquei 10 * a /2 gerando resultado errado do "d" em diante no "e" e no "f"
+mais simplesmente atribui novas "var" que resolveu o problema. Fica codigo para registro.
+> var a = 5 + 3
+undefined
+> var b = a % 5
+undefined
+> var c = 5 * b ** 2
+undefined
+> var d = 10 * a / 2
+undefined
+> var e = 6 * 2 / 4
+undefined
+> var f = b % e + 4 / e,
+... var f = b % e + 4 / e
+var f = b % e + 4 / e
+^^^
+
+Uncaught SyntaxError: Unexpected token 'var'
+> var f = b % e + 4 / e
+undefined
+
+Simplificando
+
+var n = 3 // uma variavel n recebendo 3. simples;
+n = n + 4 resultado = 7 
+n = n -5 resultado = 2
+n = n *4 resultado = 8
+n = n /2 resultado = 4
+n = n ** 2 resultado = 16
+n = n % 5 resultado = 1
+
+Pode ser ainda mais simplicado usando assim
+
+n += 4
+n -= 5
+n *= 4
+n /= 2
+n **= 2
+n %= 5
+
+Exemplo no NodeJS
+> n =3
+3
+> n += 4
+7
+> n -= 5
+2
+> n *= 4
+8
+> n /= 2
+4
+> n **= 2
+16
+> n %= 5
+1
+ ==================================================================================
+
+ Operadores de Incremento.
+
+ var x =5
+ x =x +1      x ++
+ x =x -1      x -- 
+ 
+Exemplo no NodeJS
+ > var n =1
+undefined
+> n++
+1
+> n++
+2
+> 
+
+

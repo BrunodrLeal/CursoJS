@@ -1,0 +1,89 @@
+Operadores P2
+
+Perguntas inicio.
+
+Q01: Para que serve o operador % em JS? Seria para concular Porcentagem?
+Resp: Não. é o operador de resta 1
+
+Q02: 6 + 4 / 2 é Igual a  ou 8?
+Resp: 8.
+
+Q03: Se uma variável n está valendo 10 e executamos um n += 5, qual sera seu novo valor?
+Resp: n = 15.
+
+Q04: para que servem os operadores ++ e --?
+Resp: Adiciona mais 1 ou menos 1 a Variavel . 
+=============================================================================================
+
+Operadores Aritiméticos e Atribuição foram falados na ultima aula.
+
+Agora vamos ver os relacionais. 
+Esse tipo de operador retorna somente TRUE ou FALSE.
+
+5 > 2 resultado = true                     Maior
+7 < 4 resultado = false                    Menor
+8 >= 8 resultado = true                    Maior ou Igual
+9 <= 7 resultado = false                   Menor ou Igual
+5 == 5 resultado = true                    Igualdade
+4 != 4 resultado = false                   diferente ou Igual
+
+5 == 5 = true
+5 == '5' = true
+5 === "5" =  false. Esse Operador é o Idendico.
+=============================================================================================
+
+Lógicos
+
+! Negação     Não pode ser oque está sendo pedido.
+&& Conjunção  Chamado de E lógico.
+|| Disjunção  Ou Lógico.
+
+Ordem de precedência dos Lógicos
+1° !
+2° &&
+3° ||
+
+Explicação 
+
+! Sempre que for True  se torna false
+e o contrário também acontece
+___________________________________________________
+
+&& Também tem o valor binário. 
+true && True > true
+true && false > false
+false && true > false
+false && false > false
+
+Ele só fica true se as duas opções forem "true".
+____________________________________________________
+
+|| Disjunção
+
+true || True > true
+true || false > true
+false || true > true
+false || false > false
+
+basta ter um para ser "true"
+
+Todos os exemplos foram realizados testes no NodeJS;
+
+Ordem de Precedencia dos operadores.
+1° operadores aritiméticos. ()**/...
+2° Operadores relacionais    > < >= ...
+3° Operadores Lógicos       ! && || ... 
+___________________________________________________
+
+Exemplos Práticos.
+
+idade >= 15 && idade <= 17         // a idade está entre 15 e 17?
+estado == "rj" || estado == "sp"   // o estado é Rj ou SP?
+salário > 1500 && sexo != "M"       // è uma mulher que tem o salário maior de R$ 1500.
+___________________________________________________
+
+Ternário
+
+?:  ele se chama ternário por que tem 3 partes
+
+Media > = 7.0 ? "Aprovado" : "Reprovado"
