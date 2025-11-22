@@ -1,0 +1,49 @@
+Modulo C
+
+DOM  > Document Objeto Model
+A vertente web do JS para qual a Linguagem for criada. 
+
+Árvore DOM de qualquer site> e Manipulação do DOM 
+____________________________________________________________________
+
+Perguntas.
+
+Q01° Qual é a diferença entre usar =, == e === em códigos escritos em JS?
+resp: = é o recebe. == Igualdade. = Idêntico.
+
+Q02° Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?
+Resp: Ordem de Operadores !, && por fim ||.
+
+Q03: Sabe usar o operaodr ternário para colocar entre dois valores em uma variável?
+Resp: Sim. Exemplo: Var  = 10 - 2? "certo": "errado". Me lembro do IF e Else
+____________________________________________________________________
+
+Extensões instaladas. a Watch in Chrome não está disponível. mais a LIve in Server funciona.
+
+Criado um arquivo HTML com um H1 um P e uma DIV.
+
+Oque é o DOM. Document Objeto Model é um Conjunto de Objetos dentro do navegado que var dar acesso aos componentes internos.
+A árvore dom  é muito importante. 
+
+o window é um DOM. dentro dele tem 3 abas.
+location Qual a Localização 
+Document o Documento Atual
+History que fala de onde você veio e para ode foi.
+
+mais tem várias outras pastas.
+ básicamente é a contrução do codigo visto do ponto de vista de uma Arvoré, onde temos o galho principal
+e que se divide em galhos manores e que continua  sendo dividido, formando o visual de uma árvore.
+
+Selecioando.
+
+por marca, id, nome, classe, seletor
+
+Marca: getElementsByTagname() para selecionar os elementos por marca, como h1, p1. etc.
+
+Metodo novo e recomendado. o querySelector.
+Exemplo:
+var d = window.document.querySelector("div#msg")
+ d.style.background = "Green"
+
+Anotações. toda Class é representado por .
+a DIV é representada por #2
