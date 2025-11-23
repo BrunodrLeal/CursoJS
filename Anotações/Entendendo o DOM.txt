@@ -35,6 +35,7 @@ mais tem várias outras pastas.
 e que se divide em galhos manores e que continua  sendo dividido, formando o visual de uma árvore.
 
 Selecioando.
+5 elementos do DOM
 
 por marca, id, nome, classe, seletor
 

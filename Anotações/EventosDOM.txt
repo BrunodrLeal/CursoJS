@@ -1,0 +1,42 @@
+Perguntas.
+
+Q01: oque Siginifica DOM:
+Resp: DOM = Document Objet Model
+
+Q02: Sabe Montar a árvore de um WebSite simples:
+Resp: https://bioub.github.io/dom-visualizer/?utm_source=chatgpt.com
+Este site ajuda a resolver essa questão com muita facilidade. e sim é bem simples de entender.
+
+Q03: O que São os elementos Parent e os elementos child em uma árvore DOM?
+Resp: São os elentos que interligam como o parentesco entre pai e filho. Exemplo:
+html> head > Style 
+    > body > h1 > p> p2. 
+    Creio que da pra entender. 
+
+Q04: Quais são os Cinco principais Métodos de selecionar elementos DOM dentro do JS?
+Resp:marca, id, nome, classe, seletor.
+
+Aula 10
+
+Eventos
+
+<div>
+ O mais comun. Eventos de Mouse:
+ mouseenter, o mouse entrou na div
+mousemove, mexendo dentro da div.
+mousedown, um click segurando.
+mouseup soltando o click
+click, click inteiro
+mouseout, saindo da div.
+ existe vários eventos exemplos
+eventos reference. da mozila
+tem evento expecificos para cada situação
+
+__________________________________________________________________________________________
+
+Observação de estudos.
+
+para cada ação tem uma funcção que retorna a ação. no caso simples de uma div. colocar o mouse dentro e clicar,
+tem que ligar a qualquer das 5 variações do DOM. usando na aula 006 o "ID".
+
+id="area" Foi criado para dar inicio aos estudos, e adicionado a function onclick a "area";
