@@ -40,3 +40,11 @@ para cada ação tem uma funcção que retorna a ação. no caso simples de uma 
 tem que ligar a qualquer das 5 variações do DOM. usando na aula 006 o "ID".
 
 id="area" Foi criado para dar inicio aos estudos, e adicionado a function onclick a "area";
+__________________________________________________________________________________________
+
+Consegui fazer uma interação com o Js/html/ css fazendo uma simples soma. um dado importante para os estudos.
+
+a integração pedi que eu tenha um conhecimento em HTML e CSS. já sei o básico mais tem que ser mais aprofundado.
+não me lembro totalmente de todos os comandos. assim que terminar o JS. Vou retomar o HTML5 e CSS3.
+
+

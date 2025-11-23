@@ -1,0 +1,7 @@
+QUestões.
+
+Q01: Consegue Citar três eventos que podem acontecer com elementos DOM de um Site?
+Resp: mouseenter, mouseout, click.
+
+Q02: O que é uma função? Como criar funções em JS?
+resp: pelo Script com o comando function.
