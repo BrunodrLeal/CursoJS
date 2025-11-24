@@ -1,0 +1,42 @@
+Questões
+
+Q01 Já sabe como usar a Extensão Node Exec no VSCodee?
+Resp: Usando o "f8"  e usar a função console.log para printar no terminal.
+
+Q02: Sabe criar uam condição em seu programa  JS?
+REsp: sim na aula de condições foi ensinado e fiz a prática, "tentando" criar o programa que testa se o usuário é Brasileiro ou estrangeiro, mais só dava Brasileiro. kkkk
+
+Q03: Consegue diferenciar condições simples e as condições compostas?
+Resp: se condições simples tem somente uma opção. caso essa condição não seja atingida, o sistema não faz nada. a composta tem duas opções!
+
+Proposta de Exercício da aula 11.
+
+Criar uma condição para Brasileiro e Estrangeiro.
+segue cóigo realizado.
+
+Obs: na primeiro tentativa, deu tudo errado. esqueci do ID no Input, confundi = com == atibuição com comparação. e comparar o elemento em vez de valor. 
+isso trouxe algumas dificuldades para encontrar o erro. mais no fim deu certo. consegui resolver tudo. 
+
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro</h1>
+    De qual país você é? 
+    <input type="text" id="check">
+    <input type="button" value="Verificar" onclick="check()">
+    <div id="res"></div>
+    <script>
+        function check() {
+            var txtv =document.getElementById('check')
+            var res = document.getElementById("res")
+            var pais = txtv.value.trim() // pega o texto. 
+
+           if (pais == "Brasil") {
+                res.innerHTML = `<P> Voçê é <strong>Brasileiro!</strong> </p>`
+            } else if (pais ==="Argentina") {
+                res.innerHTML = `<P> Voçê é <strong>Argentino!</strong> </p>`
+            } else {
+                res.innerHTML = `<P> Voçê é <strong>Estrangeiro!</strong> </p>`
+            }
+        }
+        
+    </script>

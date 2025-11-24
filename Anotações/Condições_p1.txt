@@ -5,3 +5,22 @@ Resp: mouseenter, mouseout, click.
 
 Q02: O que é uma função? Como criar funções em JS?
 resp: pelo Script com o comando function.
+
+Q03 Sabe como pegar os valores de caixas de texto e fazer cálculos com eles?
+Resp.  Sim, tive dificuldades em entender todos os pontos, mais no fim é tudo muito simples
+Ficava colocando as VAR com nomes errados. e os Input tambem. mais fui olhando e descobri os erros. funcionou perfeitamente
+
+Condições Parte 1
+
+Sequências
+
+Exemplos
+var n = 3 // N recebe 3
+n += 2 // n recebe mais 2
+window.alert() // pisca o alert no navegador. 
+
+____________________________________________________________________________________________________________________________
+
+Condição é o If e Else. já estou famirializado.
+
+
