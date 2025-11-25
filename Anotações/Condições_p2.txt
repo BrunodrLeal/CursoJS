@@ -40,3 +40,38 @@ isso trouxe algumas dificuldades para encontrar o erro. mais no fim deu certo. c
         }
         
     </script>
+
+    Condição Parte 2
+
+    Condição Aninhada.
+     if (cond1) {
+        bloco 1
+        else {
+            if (cond2) }{
+                bloco 2
+                else{
+                    bloco 3
+                }
+            }
+        }
+     Isso é uma condição aninhada. vem de ninho. uma dentro da outra. 
+
+Agora vamos para Condições multiplas usando o Switch
+switch (expressão){
+    case valor1:
+        bloco
+        break
+    case valor2:
+        bloco
+        break
+    case valor3:
+        bloco
+        break 
+    case valor4:
+        bloco
+        break      // uso obrigatorio    
+    default:
+        bloco
+        break
+}
+o break é obrigatorio para interromper a execução.
